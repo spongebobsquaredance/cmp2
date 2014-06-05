@@ -282,7 +282,7 @@ header h1 {
 /* About Page
 =========================================== */
 #aboutpage {
-	background: url('img/pinkflowers.jpg') no-repeat center center fixed;
+	background: url('img/pinkflowers.JPG') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -338,7 +338,7 @@ header h1 {
 /* Contact Page
 =========================================== */
 #contactpage {
-	background: url('img/sugarbowl.jpg') no-repeat center center fixed;
+	background: url('img/sugarbowl.JPG') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
