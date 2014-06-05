@@ -69,6 +69,7 @@ body {
 #contactpage {
 	position: relative;	
 	height: 100%;
+	overflow: auto;
 }
 body {
 	font-family: sans-serif;
@@ -81,6 +82,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	min-height: 440px;
 }
 
 /* Header
@@ -101,7 +103,7 @@ header h1 {
 	-o-transform: rotate(-90deg);
 	transform: rotate(-90deg);
 	position: absolute;
-	top: 432px;
+	top: 360px;
 	left: -183px;
 }
 
@@ -214,13 +216,14 @@ header h1 {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 5;
+	z-index: 600;
 	background: rgba(0,0,0,.8);
 	text-align: center;
 }
 #overlay img {
 	margin-top: 3%;
-	max-height: 550px;
+	max-height: 80%;
+	max-width: 80%;
 }
 #overlay p {
 	color: #fff;
@@ -251,6 +254,7 @@ header h1 {
 	z-index: 5;
 	background: rgba(0,0,0,.8);
 	text-align: center;
+	overflow: auto;
 }
 #nav_menu {
 	padding-top: 100px;
@@ -285,17 +289,42 @@ header h1 {
 	background-size: cover;
 }
 #textbox {
-	width: 60%;
+	width: 75%;
+	max-width: 650px;
 	height: 100%;
+	min-height: 440px;
 	margin: 0 auto;
 	-webkit-font-smoothing: antialiased;
 	background: rgba(255,255,255,.6);
+	overflow: auto;
 }
 #textbox h1 {
 	font-family: 'bebas', Helvetica, Arial, sans-serif;
 	font-size: 3em;
 	padding-top: 18px;
-	padding-left: 18px;
+}
+#textbox h2:first-of-type {
+	margin-top: 1em;
+}
+#textbox h1,
+#textbox h2,
+#textbox a {
+	margin-left: 18px;
+}
+#textbox h2 {
+	font-family: 'bebas', Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	margin-bottom: .25em;
+}
+#textbox a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-family: Garamond, Georgia, serif;
+	margin-bottom: 2em;
+	margin-top: .5em;
+	font-size: 1.2em;
+	
 }
 #textbox p {
 	font-family: Garamond, Georgia, serif;
@@ -314,6 +343,7 @@ header h1 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	min-height: auto;
 }
 
 /* Media Queries
@@ -328,8 +358,47 @@ header h1 {
 		column-gap:           0px;
 	}
 }
-
+@media screen and (max-width: 740px) {
+	#textbox p {
+		font-size: 1.5em;
+	}
+}
 @media screen and (max-width: 550px) {
+	header h1 {
+		top: 235px;
+		left: -146px;
+		font-size: 2em;
+	}
+	.hamburger,
+	.hamburger:before,
+	.hamburger:after {
+		width: 29px;
+		height: 5px;
+	}
+	.hamburger:before {
+		margin-top: -9px;
+	}
+	.hamburger:after {
+		margin-top: 9px;
+	}
+	#textbox {
+		margin-left: 60px;
+		width: auto;
+	}
+	#textbox h1 {
+		font-size: 2.5em;
+	}
+	#textbox a {
+		font-size: 1em;
+	}
+	#textbox p {
+		width: 90%;
+		margin: 0;
+		margin-left: 18px;
+	}
+	#outer_container {
+		margin-left: 60px;
+	}
 	#container {
 		-webkit-column-count: 1;
 		-webkit-column-gap:   0px;
