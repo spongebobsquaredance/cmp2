@@ -66,6 +66,12 @@ body {
 	font-family: 'Francois One', sans-serif;
 	color: black;
 	background: #eee;
+	text-transform: uppercase;
+}
+#textbox p,
+#textbox a {
+	text-transform: initial;
+	font-family: Garamond, Georgia, serif;
 }
 #mainpage {
 	background-image: url('img/brooklynbridge.jpg');
@@ -88,12 +94,11 @@ body {
 	width: 100%;
 	min-width: auto;
 }
-#main-title .nameplate {
+/*#main-title*/ .nameplate {
 	left: 15px;
 	position: absolute;
 	top: 570px;
 	font-size: 2.5em;
-	text-transform: uppercase;
 	letter-spacing: .05em;
 	-webkit-transform: rotate(-90deg);
 	-moz-transform: rotate(-90deg);
@@ -114,7 +119,7 @@ body {
 #mainpage #main-title {
 	background: rgba(0,0,0,.2);
 }
-#main-title nav {
+/*#main-title*/ nav {
 	z-index: 800;
 }
 
@@ -259,6 +264,8 @@ header a {
 	z-index: 700;
 	background: rgba(0,0,0,.8);
 	text-align: center;
+	font-family: 'Francois One', sans-serif;
+	text-transform: uppercase;
 	overflow: auto;
 }
 #nav_menu {
@@ -321,13 +328,11 @@ header a {
 	display: block;
 	text-decoration: none;
 	color: black;
-	font-family: Garamond, Georgia, serif;
 	margin-bottom: 2em;
 	margin-top: .5em;
 	font-size: 1.2em;
 }
 #textbox p {
-	font-family: Garamond, Georgia, serif;
 	font-size: 1.7em;
 	line-height: 1.2;
 	margin: 0 auto;
@@ -362,11 +367,11 @@ header a {
 	}
 }
 @media screen and (max-width: 550px) {
-	#main-title .nameplate {
-		left: 9px;
-		top: 470px;
+	.nameplate {
+		top: 440px;
 		font-size: 2em;
 		min-width: 400px;
+		left: 14px;
 	}
 	.hamburger,
 	.hamburger:before,
@@ -411,8 +416,8 @@ header a {
 	}
 }
 @media screen and (max-height: 400px) {
-	#main-title .nameplate {
-		left: 12px;
+	.nameplate {
+		left: 19px;
 		top: 310px;
 		font-size: 1.4em;
 	}
