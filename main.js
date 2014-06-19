@@ -1,7 +1,7 @@
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
 var $caption = $("<p></p>");
-var $nav_overlay = $('<div id="nav_overlay"><ul id="nav_menu"><li><a href="about.html">About</a></li><li id="portfolio"><a href="#">Portfolio</li><div id="port_menu"><ul><li><a href="boston.html">Boston</a></li><li><a href="nature.html">Nature</a></li><li><a href="foliage.html">Foliage</a></li><li><a href="abstract.html">Abstract</a></li></ul></div><li><a href="http://society6.com/carriemphotography">Prints</li><li><a href="contact.html">Contact</li></ul></div>');
+var $nav_overlay = $('<div id="nav_overlay"><ul id="nav_menu"><li><a href="../about">About</a></li><li id="portfolio"><a href="#">Portfolio</li><div id="port_menu"><ul><li><a href="../../boston">Boston</a></li><li><a href="../../nature">Nature</a></li><li><a href="../../foliage">Foliage</a></li><li><a href="../../abstract">Abstract</a></li></ul></div><li><a href="http://society6.com/carriemphotography">Prints</li><li><a href="../../contact">Contact</li></ul></div>');
 var $open_xburger = $('<a id="toggle" href="#" class="open"><div class="hamburger"></div></a>');
 
 

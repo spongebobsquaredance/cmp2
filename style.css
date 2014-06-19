@@ -70,11 +70,11 @@ body {
 }
 #textbox p,
 #textbox a {
-	text-transform: initial;
+	text-transform: none;
 	font-family: Garamond, Georgia, serif;
 }
 #mainpage {
-	background-image: url('img/brooklynbridge.jpg');
+	background-image: url('http://dp0dygervfbgv.cloudfront.net/img/brooklynbridge.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -94,7 +94,7 @@ body {
 	width: 100%;
 	min-width: auto;
 }
-/*#main-title*/ .nameplate {
+.nameplate {
 	left: 15px;
 	position: absolute;
 	top: 570px;
@@ -119,7 +119,7 @@ body {
 #mainpage #main-title {
 	background: rgba(0,0,0,.2);
 }
-/*#main-title*/ nav {
+nav {
 	z-index: 800;
 }
 
@@ -226,7 +226,7 @@ header a {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 600;
+	z-index: 900;
 	background: rgba(0,0,0,.8);
 	text-align: center;
 }
@@ -249,7 +249,7 @@ header a {
 =================================== */
 #outer_container {
 	margin-left: 65px;
-	background: url('img/black_lozenge.png');
+	background: url('http://dp0dygervfbgv.cloudfront.net/img/black_lozenge.png');
 }
 
 /* Nav_Overlay Styles
@@ -293,7 +293,7 @@ header a {
 /* About Page
 =========================================== */
 #aboutpage {
-	background-image: url('img/pinkflowers.jpg');
+	background-image: url('http://dp0dygervfbgv.cloudfront.net/img/pinkflowers.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -343,7 +343,7 @@ header a {
 /* Contact Page
 =========================================== */
 #contactpage {
-	background-image: url('img/sugarbowl.jpg');
+	background-image: url('http://dp0dygervfbgv.cloudfront.net/img/sugarbowl.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
