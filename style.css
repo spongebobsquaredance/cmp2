@@ -75,6 +75,7 @@ body {
 }
 #mainpage {
 	background-image: url('http://dp0dygervfbgv.cloudfront.net/img/brooklynbridge.jpg');
+	-webkit-background-size: cover cover;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -101,13 +102,10 @@ body {
 	font-size: 2.5em;
 	letter-spacing: .05em;
 	-webkit-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
 	-ms-transform: rotate(-90deg);
 	transform: rotate(-90deg);
 	-webkit-transform-origin: 0 0;
-  	-moz-transform-origin: 0 0;
   	-ms-transform-origin: 0 0;
-  	-o-transform-origin: 0 0;
     transform-origin: 0 0;
 	-webkit-transition: left .6s cubic-bezier(0.165,.84,.44,1),color .3s linear;
 	transition: left .6s cubic-bezier(0.165,.84,.44,1),color .3s linear;
@@ -147,6 +145,7 @@ nav {
 	background: #000;
 	position:absolute;
 	z-index: -1;
+	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
 .hamburger:before {
@@ -163,9 +162,7 @@ nav {
 }
 .open .hamburger:before {
 	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
 	transform: rotate(45deg);
 	background: #fff;
 	margin-top: 10px;
@@ -173,9 +170,7 @@ nav {
 }
 .open .hamburger:after {
 	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 	background: #fff;
 }
@@ -205,7 +200,11 @@ header a {
    -webkit-column-gap:   0px;
    -moz-column-count:    3;
    -moz-column-gap:      0px;
+   -webkit-column-count: 3;
+   -moz-column-count:    3;
    column-count:         3;
+   -webkit-column-gap:   0px;
+   -moz-column-gap:      0px;
    column-gap:           0px;
    padding: 5px 5px 0 5px;
 }
@@ -294,6 +293,7 @@ header a {
 =========================================== */
 #aboutpage {
 	background-image: url('http://dp0dygervfbgv.cloudfront.net/img/pinkflowers.jpg');
+	-webkit-background-size: cover cover;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -344,6 +344,7 @@ header a {
 =========================================== */
 #contactpage {
 	background-image: url('http://dp0dygervfbgv.cloudfront.net/img/sugarbowl.jpg');
+	-webkit-background-size: cover cover;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -357,7 +358,11 @@ header a {
 		-webkit-column-gap:   0px;
 		-moz-column-count:    2;
 		-moz-column-gap:      0px;
+		-webkit-column-count: 2;
+		-moz-column-count:    2;
 		column-count:         2;
+		-webkit-column-gap:   0px;
+		-moz-column-gap:      0px;
 		column-gap:           0px;
 	}
 }
@@ -411,7 +416,11 @@ header a {
 		-webkit-column-gap:   0px;
 		-moz-column-count:    1;
 		-moz-column-gap:      0px;
+		-webkit-column-count: 1;
+		-moz-column-count:    1;
 		column-count:         1;
+		-webkit-column-gap:   0px;
+		-moz-column-gap:      0px;
 		column-gap:           0px;
 	}
 }
@@ -422,12 +431,3 @@ header a {
 		font-size: 1.4em;
 	}
 }
-
-
-
-
-
-
-
-
-
