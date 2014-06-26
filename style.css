@@ -337,7 +337,7 @@ header a {
 }
 
 /* Contact Page
-=========================================== */
+========================================== */
 #contactpage {
 	background-image: url('http://dp0dygervfbgv.cloudfront.net/img/sugarbowl.jpg');
 	-webkit-background-size: cover cover;
@@ -347,7 +347,7 @@ header a {
 }
 
 /* Media Queries
-=========================================== */
+========================================== */
 @media screen and (max-width: 950px) { 
 	#container {
 		-webkit-column-count: 2;
